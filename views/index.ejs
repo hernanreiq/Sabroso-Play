@@ -1,0 +1,37 @@
+<%- include ('partials/head.html') %>
+<%- include ('partials/header.html') %>
+<main class="bg-dark text-white pb-5">
+    <div class="container py-3">
+        <h2 class="py-4 text-center">Películas disponibles</h2>
+        <div class="row">
+            <div class="col-md-6 my-2">
+                <div class="card w-100">
+                    <img src="/img/covers/showman.jpg" class="card-img-top" alt="El gran showman">
+                    <div class="card-body text-center text-dark">
+                      <h5 class="card-title">El gran showman</h5>
+                      <p class="card-text text-justify">P.T. Barnum se entrega a su imaginación para crear el circo Barnum & Bailey en el siglo XIX. Con números musicales, artistas exóticos y hazañas, el fascinante espectáculo toma al mundo por asalto para convertirse en el mejor espectáculo de la Tierra.</p>
+                      <button class="btn btn-primary">Ver película</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 my-2">
+                <div class="card w-100">
+                    <img src="/img/covers/1917.jpg" class="card-img-top" alt="1917">
+                    <div class="card-body text-center text-dark">
+                      <h5 class="card-title">1917</h5>
+                      <p class="card-text text-justify">Durante la Primera Guerra Mundial, dos jóvenes soldados británicos reciben una orden, aparentemente, imposible de ejecutar: en una carrera contra el reloj, deben infiltrarse en territorio enemigo para entregar un mensaje que podría salvar a miles de compañeros.</p>
+                      <button class="btn btn-primary">Ver película</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="py-4 text-center">Reproductor</h2>
+        <div class="row">
+            <video class="w-100" controls>
+                <source src="/films/1917.mp4" type="video/mp4" id="src-video">
+                    El navegador no soporta este formato.
+            </video>
+        </div>
+    </div>
+</main>
+<%- include ('partials/footer.html') %>

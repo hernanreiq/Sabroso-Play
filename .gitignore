@@ -1,1 +1,3 @@
 node_modules
+public/films/*.mp4
+public/img/covers/*.jpg
